@@ -95,37 +95,51 @@ export default function Ahomee() {
       {isTabletOrMobile &&<img style={{height:"25vh", width:"100%", objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
 
       <div style={{right:'10vh', textAlign:'center', paddingTop: 3}}>
+       {isDesktopOrLaptop &&<motion.div
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: -20, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            transition={{ duration: 1.8 }}>
+          <p style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.8em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}>العثور على مطور مواقع متمرس ليس بالأمر الهين <br></br>خصوصا ذلك المتمرس في استخدام أحدث طرق العرض</p>
+          </motion.div>}
+          {isTabletOrMobile &&<motion.div
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: -20, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            transition={{ duration: 1.8 }}>
+          <p style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.4em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}>العثور على مطور مواقع متمرس ليس بالأمر الهين <br></br>خصوصا ذلك المتمرس في استخدام أحدث طرق العرض</p>
+          </motion.div>}
               {isDesktopOrLaptop &&<TypeAnimation
                   sequence={[
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين،\n خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام html"
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام html"
                       ,
                       500,
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين،\n خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام css",
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام css",
                       500,
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين،\n خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام Javascript",
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام Javascript",
                       500,
-                         "العثور على مطور مواقع جيد ليس بالأمر الهين،\n خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام React, and its various libraries.",
+                         " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة\n-بفضل الله تعالى- في استخدام React, and its various libraries.",
                       500,
                   ]}
                   deletionSpeed={20}
-                  speed={200}
+                  speed={40}
                   style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.8em', color:"#E5F6EC", fontFamily:' Georgia, serif;', direction:'rtl'}}
               
               />}
               {isTabletOrMobile &&<TypeAnimation
                   sequence={[
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين، خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام html"
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام html"
                       ,
                       500,
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين، خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام css",
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام css",
                       500,
-                      "العثور على مطور مواقع جيد ليس بالأمر الهين، خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام Javascript",
+                      " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام Javascript",
                       500,
-                         "العثور على مطور مواقع جيد ليس بالأمر الهين، خصوصا ذلك المتمرس في استخدام أحدث طرق العرض\n\n اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام React, and its various libraries.",
+                         " اسمي أسد المحرمي وأنا مطور مواقع عماني لدي خبرة -بفضل الله تعالى-\n في استخدام React, and its various libraries.",
                       500,
                   ]}
                   deletionSpeed={20}
-                  speed={200}
+                  speed={40}
                   style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.4em', color:"#E5F6EC", fontFamily:' Georgia, serif;', direction:'rtl'}}
               
               />}
@@ -134,7 +148,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}
@@ -148,7 +162,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -162,7 +176,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -176,7 +190,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}
@@ -189,7 +203,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -203,7 +217,7 @@ export default function Ahomee() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.8,
-                  delay: 22.5,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -453,14 +467,19 @@ export default function Ahomee() {
     </ul>
               </div>
           </div>}
-        <div>
-          <h2 style={{color: "white"}}>Image References:</h2>
+          <motion.div initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.8,
+                  delay: 22.5,
+                  ease: [0, 0.71, 0.2, 1.01]}}>
+          <h2 style={{color: "white"}}>مصادر الصور:ء</h2>
           <a href="https://www.freepik.com">6 images from freepik</a> <br></br>
           <a href="https://www.openart.ai">2 images from openart.ai</a> <br></br>
           <a href="https://creator.nightcafe.studio">1 image from nightcafe</a> <br></br>
           <a href="https://www.123rf.com">1 image from 123rf</a> <br></br>
 
-        </div>
+        </motion.div>
       </div>
     )
 };

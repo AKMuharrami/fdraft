@@ -96,37 +96,53 @@ export default function Homee() {
       {isTabletOrMobile &&<img style={{height:"25vh", width:"100%", objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
 
       <div style={{right:'10vh', textAlign:'center', paddingTop: 3}}>
+        {isDesktopOrLaptop &&<motion.div
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: -20, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            transition={{ duration: 1.8 }}>
+          <p style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.8em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}>Finding a good web developer is not an easy task,<br></br> especially the one who is proeffecient in using the latest design styles.</p>
+          </motion.div>}
+        {isTabletOrMobile &&<motion.div
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: -20, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            transition={{ duration: 1.8 }}>
+          <p style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.4em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}>Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.</p>
+          </motion.div>}
               {isDesktopOrLaptop &&<TypeAnimation
                   sequence={[
-                      "Finding a good web developer is not an easy task,\n especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using html"
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using html"
                       ,
                       500,
-                      "Finding a good web developer is not an easy task,\n especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using css",
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using css",
                       500,
-                      "Finding a good web developer is not an easy task,\n especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using Javascript",
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using Javascript",
                       500,
-                         "Finding a good web developer is not an easy task,\n especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using React, and its various libraries.",
+                         "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced\n-praise be to Allah- in using React, and its various libraries.",
                       500,
                   ]}
                   deletionSpeed={20}
-                  speed={30}
+                  speed={40}
+                  delay={2}
                   style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.8em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}
               
               />}
               {isTabletOrMobile &&<TypeAnimation
                   sequence={[
-                      "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using html"
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using html"
                       ,
                       500,
-                      "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using css",
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using css",
                       500,
-                      "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using Javascript",
+                      "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using Javascript",
                       500,
-                         "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using React, and its various libraries.",
+                         "I go by the name of Akmuharrami and I'm an Omani web developer that is experienced -praise be to Allah- in\n using React, and its various libraries.",
                       500,
                   ]}
                   deletionSpeed={20}
-                  speed={200}
+                  speed={40}
+                  delay={2}
                   style={{display:'block',whiteSpace: 'pre-line',fontSize:'1.4em', color:"#E5F6EC", fontFamily:' Georgia, serif;'}}
               
               />}
@@ -134,8 +150,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}
@@ -148,8 +164,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -162,8 +178,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -176,8 +192,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}
@@ -189,8 +205,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
@@ -203,8 +219,8 @@ export default function Homee() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 22.5,
+                  duration: 0.4,
+                  delay: 5.5,
                   ease: [0, 0.71, 0.2, 1.01]
 
                 }}>
