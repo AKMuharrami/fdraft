@@ -94,7 +94,7 @@ export default function Homee() {
         <link rel="canonical" href="/"/>
         </Helmet> */}
       {isDesktopOrLaptop &&<Image priority quality="30" height="400"  width="1363" style={{objectFit:'cover',objectPosition:'0% 5%'}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg?w=1480" alt="" />}
-      {isTabletOrMobile &&<Image priority quality="30" height="250" width="490" style={{objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
+      {isTabletOrMobile &&<Image priority quality="30" height="250" width="415" style={{objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
 
       <div style={{right:'10vh', textAlign:'center', paddingTop: 3}}>
         {isDesktopOrLaptop &&<motion.div
@@ -336,7 +336,7 @@ export default function Homee() {
               </motion.div>
               {/* so how does that link up to our current topix you might say, well let's see */}
               <div id='pbody'>
-              <svg id="progress" width="100" height="100" viewBox="0 0 100 100" style={{left:'-40%'}}>
+              <svg id="progress" width="100" height="100" viewBox="0 0 100 100" >
       <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
       <motion.circle
         cx="50"
@@ -448,7 +448,7 @@ export default function Homee() {
               </motion.div>
               {/* so how does that link up to our current topix you might say, well let's see */}
               <div id='pbody' style={{marginTop:'-13px'}}>
-              <svg id="progress" width="100" height="100" viewBox="0 0 100 100" style={{left:'-40%'}}>
+              <svg id="progress" width="100" height="100" viewBox="0 0 100 100" >
       <circle cx="50" cy="50" r="20" pathLength="1" className="bg" />
       <motion.circle
         cx="50"

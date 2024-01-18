@@ -126,12 +126,12 @@ circle {
 }
 
 .bg {
-  stroke: var(--accent);
+  stroke: whitesmoke;
   opacity: 0.3;
 }
 
 #progress .indicator {
-  stroke: var(--accent);
+  stroke: white;
 }
 
 #pul {
