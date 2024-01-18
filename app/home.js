@@ -93,8 +93,8 @@ export default function Homee() {
         <meta name="description" content="Experienced In HTML CSS Javascript React, ready to design your proffesional website"/>
         <link rel="canonical" href="/"/>
         </Helmet> */}
-      {isDesktopOrLaptop &&<Image priority height="400"  width="1363" style={{objectFit:'cover',objectPosition:'0% 5%'}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg?w=1480" alt="" />}
-      {isTabletOrMobile &&<img style={{height:"25vh", width:"100%", objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
+      {isDesktopOrLaptop &&<Image priority quality="30" height="400"  width="1363" style={{objectFit:'cover',objectPosition:'0% 5%'}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg?w=1480" alt="" />}
+      {isTabletOrMobile &&<Image priority quality="30" height="250" width="490" style={{objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
 
       <div style={{right:'10vh', textAlign:'center', paddingTop: 3}}>
         {isDesktopOrLaptop &&<motion.div
