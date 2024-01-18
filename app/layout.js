@@ -9,6 +9,10 @@ export const metadata = {
     template:'%s - ODev'
   },
   description: 'Omani (oman) Web Dev',
+  openGraph: {
+    title: 'ODev',
+    description: 'Omani (oman) Web Dev'
+  }
 }
 
 export default function RootLayout({ children }) {
