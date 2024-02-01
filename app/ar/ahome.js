@@ -472,7 +472,8 @@ export default function Ahomee() {
                 transition={{
                   duration: 0.8,
                   delay: 22.5,
-                  ease: [0, 0.71, 0.2, 1.01]}}>
+                  ease: [0, 0.71, 0.2, 1.01]}}
+                  style={{direction:'rtl'}}>
           <h2 style={{color: "white"}}>مصادر الصور:ء</h2>
           <a href="https://www.freepik.com">6 images from freepik</a> <br></br>
           <a href="https://www.openart.ai">2 images from openart.ai</a> <br></br>
